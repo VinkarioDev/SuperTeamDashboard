@@ -106,4 +106,20 @@ i{
 .item3{
     grid-column: span 1;
     background-color: brown;
+    display: grid;
+    grid-template-columns: 463px 463px 463px;
+    padding: 50px;
+    gap: 30px;
+}
+
+.card-dash{
+    grid-area: span 1;
+    background-color: #543EC5;
+    height: 130px;
+}
+
+.card-dash-big{
+    grid-area: 1fr ;
+    background-color: green;
+    height: 130px;
 }
