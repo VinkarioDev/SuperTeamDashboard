@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 360px 1fr;
+}
+
+.item1{
+    grid-column: span 2;
+    background-color: aqua;
+}
+
+.item2{
+    grid-column: span 1;
+    background-color: red;
+    height: 100vh;
+}
+
+.item3{
+    grid-column: span 1;
+    background-color: brown;
+}
